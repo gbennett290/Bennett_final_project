@@ -5,6 +5,7 @@
 
 from tkinter import *
 from tkinter import ttk
+import subprocess
 
 main_window = Tk()
 
@@ -47,8 +48,7 @@ def quiz_one():
     quiz_one_window.mainloop()
 
 def quiz_two():
-    quiz_two_window = Tk()
-    quiz_two_window.geometry("1280x720")
+    subprocess.run(["python", "GUI ANIME TRIVIA.py"])
 
 def quiz_three():
     quiz_three_window = Tk()
